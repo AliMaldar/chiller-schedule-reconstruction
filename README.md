@@ -1,6 +1,6 @@
 # Chiller Operating-Schedule Reconstruction
 
-Research code for *Reconstructing Chiller Operating Schedules from Aggregate Building Electricity: A Cross-Building Learning Framework*.
+Research code for *Reconstructing Chiller Operating Schedules from 15-min Aggregate Building Electricity: A Cross-Building Learning Framework*.
 
 ## Method
 
