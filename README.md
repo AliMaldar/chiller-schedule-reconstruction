@@ -13,8 +13,8 @@ The validation notebook adds hierarchical bootstrap uncertainty, controlled abla
 1. Install Python dependencies: `python -m pip install -r requirements.txt`.
 2. Supply **authorized** input data and private season configuration as specified in [DATA_SCHEMA.md](DATA_SCHEMA.md).
 3. From the repository root, launch `jupyter lab` and run the notebooks in order:
-   - [`notebooks/01_main_analysis.ipynb`](notebooks/01_main_analysis.ipynb) — reference construction, training, inference, and evaluation.
-   - [`notebooks/02_validation_extensions.ipynb`](notebooks/02_validation_extensions.ipynb) — uncertainty, ablations, and reference sensitivity.
+   - [`01_main_analysis.ipynb`](01_main_analysis.ipynb) — reference construction, training, inference, and evaluation.
+   - [`02_validation_extensions.ipynb`](02_validation_extensions.ipynb) — uncertainty, ablations, and reference sensitivity.
 
 The validation notebook imports the main notebook by **cell index**. Do not reorder, insert, or delete notebook cells. Set `TASK1_WORKDIR` to the repository root if Jupyter is started elsewhere (otherwise the default is the current directory).
 
